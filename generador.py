@@ -1,16 +1,16 @@
 import random
 
 def main():
-	animales = ["la abeja",
+	animales = ["a la abeja",
 "el águila",
 "el alce",
-"la almeja",
-"la alondra",
-"la anchoa",
-"la anguila",
+"a la almeja",
+"a la alondra",
+"a la anchoa",
+"a la anguila",
 "el antílope",
-"la araña",
-"la ardilla",
+"a la araña",
+"a la ardilla",
 "el arenque",
 "la atún",
 "el avestruz",
@@ -190,9 +190,9 @@ def main():
 "la yegua",
 "la zorra",
 "el zorro",]
-	verbos = ["acariciar", "consultar", "trabajar", "animar", "ensuciar", "sacudir", "lustrar", "pulir", "encerar", "desmembrar", "degollar", "aplaudir", "educar", "ayudar"]
+	verbos = ["acariciar", "desempolvar", "enroscar", "consultar", "trabajar", "animar", "ensuciar", "sacudir", "arrastrar", "lustrar", "pulir", "encerar", "desmembrar", "degollar", "aplaudir", "educar", "ayudar"]
 	
-	for i in range(20):
+	for i in range(1):
 		print(random.choice(verbos) + " " + random.choice(animales))
  
 
